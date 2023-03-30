@@ -1,0 +1,7 @@
+<apex:page controller="MyTeamOrdersController" lightningStylesheets="true">
+    
+    <apex:pageBlock title="Sum of my team orders : ">
+        <apex:outputText value=" {!ShowTotalOrdersNetAmount} €"/>
+    </apex:pageBlock>
+    
+</apex:page>
